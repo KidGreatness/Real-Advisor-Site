@@ -1,0 +1,351 @@
+* {
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+header {
+	background: brown;
+	width: 100vw;
+	height: 100vh;
+	color: white;
+	
+}
+
+.top-section {
+	border-bottom: 1px solid #EAEEEE;
+	display: relative;
+	padding: 1rem; 
+}
+
+#logo-container{
+	width: 40%;
+	display: inline-block;
+}
+
+.icons {
+	width: 1rem;
+	height: 1rem;
+	vertical-align: top;
+}
+
+.logo-text {
+	font-size: 1rem;
+	padding-left: 0.2rem;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.nav-button{
+	width: 1rem;
+	height: 1rem;
+	background: transparent;
+	border: none;
+	padding: 0;
+	position: absolute;
+	right: 1rem;
+
+}
+
+.nav-button-lines {
+	display: block;
+	width: 100%;
+	height: 0.2rem;
+	margin-bottom: 0.25rem;
+	background: white;
+}
+
+.nav-button-lines-last {
+	width: 50%;
+	position: relative;
+	left: 50%;
+}
+
+.header-title {
+	font-size: 2.75rem;
+	height: 50%;
+	font-weight: normal;
+	padding: 2rem;
+	line-height: 1.25;
+}
+
+.appraise-button {
+	width: 90%;
+	height: 10%;
+	margin: 0 auto;
+	display: block;
+	border: none;
+	text-align: center;
+	font-size: 1.25rem;
+}
+
+.appraise-button-textform {
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+}
+
+.appraise-button-textform::placeholder {
+	color: #EAEEEE;	
+}
+.appraise-button-submit {
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	background: #2B9F9B;
+	color: white;
+}
+
+.buyer-seller-section {
+	width: 100vw;
+	height: 200vh;
+	background: #E9F7FE;
+}
+
+.buyer-seller-opening-text {
+	width: 100%;
+	height: 15%;
+	font-size: 1.25rem;
+	text-align: center;
+	margin: 0;
+	padding: 2rem 1.5rem;
+	line-height: 1.5;
+}
+
+.buyer-seller-card{
+	width: 90%;
+	height: 41%;
+	background: white;
+	margin: 0 auto;
+	text-align: center;
+	box-shadow: 0 5px 25px 0 rgba(0,0,0,0.2);
+}
+
+.seller-card {
+	margin-bottom: 5%; 
+}
+
+.buyer-seller-card-image {
+	width: 50%;
+	height: 33%;
+	border-radius: 100%;
+	background: #D0F3F3;
+	margin: 2rem auto;
+}
+
+.buyer-seller-card p {
+	padding: .5rem 1rem;
+	line-height: 1.75;
+}
+
+.buyer-seller-card a {
+	color: #B4F3F3;
+	font-size: 1.2rem;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.three-steps-process {
+	width: 100vw;
+	height: 175vh;
+	text-align: center;
+	font-weight: bold;
+}
+
+.section-seperate-line {
+	width: 20%;
+	height: 0.2rem;
+	margin: 0 auto;
+	display: block;
+	border: none;
+	background: #01B6B6;
+}
+
+.three-steps-explaination-container {
+	width: 100%;
+	height: 35%;
+	background: #E9F7FE;
+}
+
+.three-steps-explaination-text {
+	font-size: 1.5rem;
+	font-weight: bold;
+	line-height: 1.5;
+	margin: 0;
+	padding: 4rem 1.5rem;
+}
+
+.three-steps-process span {
+	font-size: 6rem;
+	display: block;
+	color: #01B6B6;
+}
+
+.three-steps-process span:nth-of-type(1) {
+	margin-top: -4rem;
+}
+
+.step-selling-point {
+	/*font-size: 0.95rem;*/
+	padding: 0.55rem 2rem;
+	line-height: 1.75;
+}
+
+.house-preview-slider {
+	width: 90vw;
+	height: 100vh;
+	margin: 0 auto;
+}
+
+.preview-slider-header {
+	width: 100%
+	height: 10%;
+	padding-left: 1.5rem;
+	position: relative;
+}
+
+.preview-slider-title-container{
+	display: inline-block;
+	width: 65%;
+
+}
+
+.slider-arrow-container {
+	width: calc(100% -161px);
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 2.5rem;
+	position: absolute;
+	right: 1rem;
+}
+
+.preview-slider-title {
+	
+	margin: 0;
+	font-size: 1.25rem;
+	font-weight: bold;
+	white-space: pre-line;
+	line-height: 1.25;
+	vertical-align: top;
+}
+
+.preview-slider-arrow {
+	width: 1rem;
+	height: 1rem;
+	display: inline-block;
+	margin: 0 0.25rem 0 0.75rem
+}
+
+.house-slide-container {
+	width: 80%;
+	height: 70%;
+	margin: 1rem 1.5rem;
+}
+
+.house-slider-image {
+	width: 100%;
+	height: 65%;
+	margin-bottom: 1rem;
+	background: #D0F3F3;
+	border-radius: 10px;
+}
+
+.house-slider-city-text,
+.house-slider-street-text {
+	font-size: 1.1rem;
+	margin: 0.5rem 0;
+}
+
+.house-slider-price {
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+
+.benefits-container {
+	width: 100vw;
+	height: 175vh;
+}
+
+.benefits-image-container,
+.benefits-statement-container {
+	width: 100%;
+	height: 50%;
+}
+
+.benefits-image-container {
+	background: #D0F3F3;
+}
+
+.benefits-statement-container h2 {
+	font-size: 1.75rem;
+	padding: 1rem 1.5rem;
+}
+
+.benefits-statement-container p {
+	line-height: 1.75;
+	padding: 0 1.5rem;
+}
+
+.feature-list {
+	width: 100vw;
+	height: 175vh;
+	text-align: center;
+	border-bottom: 1px solid #EAEEEE;
+}
+
+.feature-list h3 {
+	font-size: 1.25rem;
+	padding: 1rem 1.5rem;
+	line-height: 1.75;
+}
+
+.feature-list-feature-container {
+	margin-bottom: 2rem;
+}
+
+.feature-list-icons {
+	width: 2rem;
+	height: 2rem;
+}
+
+.feature-list-feature-container p {
+	font-size: 1.2rem;
+	white-space: pre-line;
+	vertical-align: middle;
+	line-height: 1.5;
+	margin-top: -0.5rem;
+	padding: 0.25rem 0;
+}
+
+.feature-list-button {
+	height: 6%;
+	margin-bottom: 1rem;
+	border-radius: 5px;
+	font-size: 1rem;
+	color: white;
+}
+
+.feature-list-appraise-button {
+	margin-top: 3rem;
+	background: #032c42;
+}
+.feature-list-find-button {
+	background: #00c7c8;
+}
+
+.main-footer {
+	width: 100vw;
+	height: 150vh;
+}
+
+.footer-logo-image {
+	width: 1.5rem;
+	height: 1.5rem;
+}
+.footer-logo-text {
+	display: inline-block;
+	margin: 0;
+}
+
+.footer-nav-list {
+	display: inline-block;
+	list-style: none;
+	font-size: 0.85rem;
+}
